@@ -1,155 +1,161 @@
-# Iosevka Custom Build (Iosevka Mayukai)
+# Iosevka Mayukai: a Custom Build of Iosevka
 
-This repository contains .ttf files from the result of custom build original Iosevka Font. All weight variant is available, from Regular, Italic, weight 100 until weight 900, and full bold. This custom build also support all font ligature from original Iosevka Build. We're using Iosevka SS04 (Menlo), Iosevka SS07 (Monaco), Iosevka SS09 (Source Code Pro), Iosevka SS12 (Ubuntu Mono), Iosevka SS14 (Jetbrains Mono), Hack Font Style, and Nerd Font patcher to make this Iosevka Custom Build, named Iosevka Mayukai.
+This repository contains TTF files containing modifications as a custom build of the original Iosevka font. All weight and style variants from the original font are available: Regular, Italic, weights from 100 to 900, and Bold. This build also supports all ligatures from the original Iosevka font. We took the fonts Iosevka SS04 (Menlo), Iosevka SS07 (Monaco), Iosevka SS09 (Source Code Pro), Iosevka SS12 (Ubuntu Mono), Iosevka SS14 (Jetbrains Mono), Hack Font Style, and the Nerd Font patcher to make this custom build of Iosevka, named Iosevka Mayukai.
 
 ## Font Variants
 
-Iosevka Mayukai Font is font with ligature suitable for programming font in text editor and IDE. Iosevka Mayukai have some variants. There are Iosevka Mayukai Original, Iosevka Mayukai Serif, Iosevka Mayukai Codepro, Iosevka Mayukai Monolite, and Iosevka Mayukai Sonata.
+Iosevka Mayukai is a subfamily of style-varying fonts with ligatures, suitable as a programming font for text editors and IDEs. The variants available are as follows:
 
-Iosevka Mayukai Original is variant with combination of Iosevka SS04 (Menlo), Iosevka SS07 (Monaco) and Iosevka SS12 (Ubuntu Mono) variant.
+- **Iosevka Mayukai Original** is a variant with the combination of Iosevka SS04 (Menlo), Iosevka SS07 (Monaco), and Iosevka SS12 (Ubuntu Mono).
+- **Iosevka Mayukai Serif** is a variant with the combination of Iosevka SS09 (Source Code Pro), Iosevka SS12 (Ubuntu Mono), Iosevka SS14 (Jetbrains Mono), and the Hack font style.
+- **Iosevka Mayukai Codepro** is a variant with the combination from Iosevka SS15 (IBM Plex Mono) and Iosevka SS18 (Input Mono).
+- **Iosevka Mayukai Monolite** is a variant with the combination of Iosevka SS16 (PT Mono), Iosevka SS17 (Recursive Mono), and Iosevka SS05 (Fira Mono) with complete ligature support.
+- **Iosevka Mayukai Sonata** is a variant with the combination of Iosevka SS18 (Input Mono) and Iosevka SS03 (Consolas).
+- **Iosevka Mayukai Firastorm** is a variant with the combination of Iosevka SS17 (Recursive Mono) and Iosevka SS05 (Fira Mono).
 
-Iosevka Mayukai Serif is variant with combination of Iosevka SS09 (Source Code Pro), Iosevka SS12 (Ubuntu Mono), Iosevka SS14 (Jetbrains Mono), and Hack Font Style.
+Each variant has its own separate bundle. There are bundles with and without ligations. For code editors or IDEs, the bundles named `IosevkaMayukaiXXXEditor-vXXX.zip` should be used. Such bundles include fonts with built-in ligatures and glyph ligations from Iosevka.
 
-Iosevka Mayukai Codepro is variant with combination from Iosevka SS15 (IBM Plex Mono) and Iosevka SS18 (Input Mono).
+For terminals, the bundles named `IosevkaMayukaiXXXTerminal-vXXX.zip` should be used. Such bundles include monospace fonts **without ligations**. Additionally, Nerd Fonts-patched variants with complete glyph and powerline variants are available in the `nerd-patched-ttf` folder. Such variables are suitable for terminals like Spaceship, Starship, and Powerlevel10K. These font variants have been patched using [Nerd Font Tools by Ryanoasis](https://github.com/ryanoasis/nerd-fonts).
 
-Iosevka Mayukai Monolite is variant from combination of Iosevka SS16 (PT Mono), Iosevka SS17 (Recursive Mono), and Iosevka SS05 (Fira Mono) with complete ligature support.
+WOFF files are available for each variant, which can be used in web pages.
 
-Iosevka Mayukai Sonata is variant from combination of Iosevka SS18 (Input Mono) and Iosevka SS03 (Consolas).
+## Font Samples
 
-Iosevka Mayukai Firastorm is variant from combination of Iosevka SS17 (Recursive Mono) and Iosevka SS05 (Fira Mono).
+Here are sample screenshots for each font variant, which can be seen below.
 
-Each variant have separate bundle. There are bundle with ligation and without ligation. For code editor or IDE, we use new bundle named **"IosevkaMayukaiXXXEditor-xxxx.zip"**. This bundle include fonts with built-in ligature and glyph ligation from Iosevka.
+### Iosevka Mayukai Original
 
-For terminal app or command prompt, use fonts inside zip bundle named **"IosevkaMayukaiXXXTerminal-xxxx.zip"**. This bundle include fonts with monospace configuration and **without ligation**. Also available Nerd Patched Fonts with complete Glyph and Powerline variant inside this bundle on **"nerd-patched-ttf"** folder. This variant suitable for Terminal app usage and command prompt shell like Spaceship, Starship, and Powerlevel10K. This fonts patched with [Nerd Font Tools by Ryanoasis](https://github.com/ryanoasis/nerd-fonts).
+#### Regular
 
-Webfont type is available in each variant. Can be used for styling web apps font.
+![Iosevka Mayukai Original - Regular Sample](samples/iosevka-mayukai-original-sample.png)
 
-## Font Sample Specimen
+#### Italic
 
-Here some screenshot for font speciment that can be see below.
+![Iosevka Mayukai Original - Italic Sample](samples/iosevka-mayukai-original-italic-sample.png)
 
-### Iosevka Mayukai Original - Regular Version
+### Iosevka Mayukai Serif
 
-![Gambar Demo 1](https://raw.githubusercontent.com/Iosevka-Mayukai/Iosevka-Mayukai/master/sampel-original.png)
+#### Regular
 
-### Iosevka Mayukai Original - Italic Version
+![Iosevka Mayukai Serif - Regular Sample](samples/iosevka-mayukai-serif-sample.png)
 
-![Gambar Demo 2](https://raw.githubusercontent.com/Iosevka-Mayukai/Iosevka-Mayukai/master/sampel-original-italic.png)
+#### Italic
 
-### Iosevka Mayukai Serif - Regular Version
+![Iosevka Mayukai Serif - Italic Sample](samples/iosevka-mayukai-serif-italic-sample.png)
 
-![Gambar Demo Serif 1](https://raw.githubusercontent.com/Iosevka-Mayukai/Iosevka-Mayukai/master/sampel-serif.png)
+### Iosevka Mayukai Codepro
 
-### Iosevka Mayukai Serif - Italic Version
+#### Regular
 
-![Gambar Demo Serif 2](https://raw.githubusercontent.com/Iosevka-Mayukai/Iosevka-Mayukai/master/sampel-serif-italic.png)
+![Iosevka Mayukai Codepro - Regular Sample](samples/iosevka-mayukai-codepro-sample.png)
 
-### Iosevka Mayukai Codepro - Regular Version
+#### Italic
 
-![Gambar Demo Codepro 1](https://raw.githubusercontent.com/Iosevka-Mayukai/Iosevka-Mayukai/master/sampel-codepro.png)
+![Iosevka Mayukai Codepro - Italic Sample](samples/iosevka-mayukai-codepro-italic-sample.png)
 
-### Iosevka Mayukai Codepro - Italic Version
+### Iosevka Mayukai Monolite
 
-![Gambar Demo Codepro 2](https://raw.githubusercontent.com/Iosevka-Mayukai/Iosevka-Mayukai/master/sampel-codepro-italic.png)
+#### Regular
 
-### Iosevka Mayukai Monolite - Regular Version
+![Iosevka Mayukai Monolite - Regular Sample](samples/iosevka-mayukai-monolite-sample.png)
 
-![Gambar Demo Monolite](https://raw.githubusercontent.com/Iosevka-Mayukai/Iosevka-Mayukai/master/sampel-monolite.png)
+#### Italic
 
-### Iosevka Mayukai Monolite - Italic Version
+![Iosevka Mayukai Monolite - Italic Sample](samples/iosevka-mayukai-monolite-italic-sample.png)
 
-![Gambar Monolite Italic](https://raw.githubusercontent.com/Iosevka-Mayukai/Iosevka-Mayukai/master/sampel-monolite-italic.png)
+### Iosevka Mayukai Sonata
 
-### Iosevka Mayukai Sonata - Regular Version
+#### Regular
 
-![Gambar Demo Sonata](https://raw.githubusercontent.com/Iosevka-Mayukai/Iosevka-Mayukai/master/sampel-sonata.png)
-### Iosevka Mayukai Sonata - Italic Version
+![Iosevka Mayukai Sonata - Regular Sample](samples/iosevka-mayukai-sonata-sample.png)
 
-![Gambar Sonata Italic](https://raw.githubusercontent.com/Iosevka-Mayukai/Iosevka-Mayukai/master/sampel-sonata-italic.png)
+#### Italic
 
+![Iosevka Mayukai Sonata - Italic Sample](samples/iosevka-mayukai-sonata-italic-sample.png)
 
-### Iosevka Mayukai Firastorm - Regular Version
+### Iosevka Mayukai Firastorm
 
-![Gambar Demo Firastorm](https://raw.githubusercontent.com/Iosevka-Mayukai/Iosevka-Mayukai/master/sampel-firastorm.png)
-### Iosevka Mayukai Firastorm - Italic Version
+#### Regular
 
-![Gambar Firastorm Italic](https://raw.githubusercontent.com/Iosevka-Mayukai/Iosevka-Mayukai/master/sampel-firastorm-italic.png)
+![Iosevka Mayukai Firastorm - Regular Sample](samples/iosevka-mayukai-firastorm-sample.png)
+
+#### Italic
+
+![Iosevka Mayukai Firastorm - Italic Sample](samples/iosevka-mayukai-firastorm-italic-sample.png)
 
 ## Download and Installation
 
-Quit your editor/program. Download the fonts from [Github Release Page](https://github.com/Iosevka-Mayukai/Iosevka-Mayukai/releases) in this repository. Unzip and open the folder **/IosevkaMayukaiXXX-xxxx**.
+Download the fonts from the [Releases page](https://github.com/Iosevka-Mayukai/Iosevka-Mayukai/releases) of this repository. Unzip and open the `IosevkaMayukaiXXX-vXXX` folder.
 
-- **Instruction for Linux** : Copy the TTF files to your fonts directory, usually in your Home directory `~/.local/share/fonts/` . And then run Run `sudo fc-cache -f -v`. For refreshing Font Cache in your sistem.
-- **[Instructions for macOS](http://support.apple.com/kb/HT2509)**
-  - Right click on .ttf font file, and Install it with FontBook App.
-- **Instructions for Windows** : Download the fonts from the [Releases Page](https://github.com/Iosevka-Mayukai/Iosevka-Mayukai/releases), select the font files and right click, then hit "Install".
-  - On Windows 10 1809 or newer the default font installation is per-user, and it may cause compatibility issues for some applications, mostly written in Java. To cope with this, right click and select "Install for all users" instead. [Ref.](https://youtrack.jetbrains.com/issue/JRE-1166?p=IDEA-200145)
+- **Instruction for Linux**: Copy the folder with the TTF files into your fonts directory, which is usually in your home directory at `~/.local/share/fonts/`. To install it system-wide, you may copy it over to `/usr/share/fonts/truetype` instead. From there on, run `sudo fc-cache -f -v` to refresh the font caches in your system.
+- **[Instructions for MacOS](http://support.apple.com/kb/HT2509)**: Right click on each TTF font file, and install with the FontBook App.
+- **Instructions for Windows**: Download the fonts from the [Releases page](https://github.com/Iosevka-Mayukai/Iosevka-Mayukai/releases), select and right-click the font files, then hit "Install".
+  - On Windows 10 1809 or newer, fonts are installed per-user for the local user by default. This may cause compatibility issues for some applications, mostly ones written in Java. To cope with this, right-click and select "Install for all users" instead. [(Reference)](https://youtrack.jetbrains.com/issue/JRE-1166?p=IDEA-200145)
 
-## Settings for Your Code Editor
+## Settings for Code Editors
 
-Open your text editor font settings, for example in VS Code / VS Codium Text Editor. Go to Font Settings, and write variant name in Font Selection. Save and reload your code editor. If it doesn't work, then try write **"Iosevka-Mayukai-<variant name>"** in Font selection settings.
+Open your code editor's font settings, and input the font variant's name into the font selection. Save and reload your code editor. If it doesn't work, try writing the font's name with dashes: `"Iosevka-Mayukai-<variant>"`.
 
-If you use Iosevka Mayukai Original, you should write **"Iosevka Mayukai Original"** in text editor font settings. For macOS or Windows, try write **"Iosevka-Mayukai-Original"** if the first one is fail.
+For Iosevka Mayukai Original, input `"Iosevka Mayukai Original"` into the editor's font settings. For MacOS and Windows, try inputting `"Iosevka-Mayukai-Original"` in case the former failed.
 
-![Gambar Setting 1](https://raw.githubusercontent.com/Iosevka-Mayukai/Iosevka-Mayukai/master/setting-iosevka-mayukai-original.png)
+![Iosevka Mayukai Original Setting](settings/iosevka-mayukai-original-setting.png)
 
-For Iosevka Mayukai Serif setting, you should write **"Iosevka Mayukai Serif"** in text editor font settings. For macOS or Windows, try write **"Iosevka-Mayukai-Serif"** if the first one is fail.
+For Iosevka Mayukai Serif, input `"Iosevka Mayukai Serif"` into the editor's font settings. For MacOS and Windows, try inputting `"Iosevka-Mayukai-Serif"` in case the former failed.
 
-![Gambar Setting 2](https://raw.githubusercontent.com/Iosevka-Mayukai/Iosevka-Mayukai/master/setting-iosevka-mayukai-serif.png)
+![Iosevka Mayukai Serif Setting](settings/iosevka-mayukai-serif-setting.png)
 
-If you use Iosevka Mayukai Codepro, you should write **"Iosevka Mayukai Codepro"** in text editor font settings. For macOS or Windows, try write **"Iosevka-Mayukai-Codepro"** if the first one is fail.
+For Iosevka Mayukai Codepro, input `"Iosevka Mayukai Codepro"` into the editor's font settings. For MacOS and Windows, try inputting `"Iosevka-Mayukai-Codepro"` in case the former failed.
 
-![Gambar Setting 3](https://raw.githubusercontent.com/Iosevka-Mayukai/Iosevka-Mayukai/master/setting-iosevka-mayukai-codepro.png)
+![Iosevka Mayukai Codepro Setting](settings/iosevka-mayukai-codepro-setting.png)
 
-For Iosevka Mayukai Monolite, you should write **"Iosevka Mayukai Monolite"** in text editor font settings. For macOS or Windows, try write **"Iosevka-Mayukai-Monolite"** if the first one is fail.
+For Iosevka Mayukai Monolite, input `"Iosevka Mayukai Monolite"` into the editor's font settings. For MacOS and Windows, try inputting `"Iosevka-Mayukai-Monolite"` in case the former failed.
 
-![Gambar Setting 4](https://raw.githubusercontent.com/Iosevka-Mayukai/Iosevka-Mayukai/master/setting-iosevka-mayukai-monolite.png)
+![Iosevka Mayukai Monolite Setting](settings/iosevka-mayukai-monolite-setting.png)
 
-For Iosevka Mayukai Sonata, you should write **"Iosevka Mayukai Sonata"** in text editor font settings. For macOS or Windows, try write **"Iosevka-Mayukai-Sonata"** if the first one is fail.
+For Iosevka Mayukai Sonata, input `"Iosevka Mayukai Sonata"` into the editor's font settings. For MacOS and Windows, try inputting `"Iosevka-Mayukai-Sonata"` in case the former failed.
 
-![Gambar Setting 4](https://raw.githubusercontent.com/Iosevka-Mayukai/Iosevka-Mayukai/master/setting-iosevka-mayukai-sonata.png)
+![Iosevka Mayukai Sonata Setting](settings/iosevka-mayukai-sonata-setting.png)
 
+For Iosevka Mayukai Firastorm, input `"Iosevka Mayukai Firastorm"` into the editor's font settings. For MacOS and Windows, try inputting `"Iosevka-Mayukai-Firastorm"` in case the former failed.
 
-For Iosevka Mayukai Sonata, you should write **"Iosevka Mayukai Firastorm"** in text editor font settings. For macOS or Windows, try write **"Iosevka-Mayukai-Firastorm"** if the first one is fail.
+![Iosevka Mayukai Firastorm Setting](settings/iosevka-mayukai-firastorm-setting.png)
 
-![Gambar Setting 4](https://raw.githubusercontent.com/Iosevka-Mayukai/Iosevka-Mayukai/master/setting-iosevka-mayukai-firastorm.png)
+### Nerd Font Variants
 
-### Nerd Variant
-
-If you're using Nerd Patched Font variant, you should select or use **"Iosevka Nerd Font"** in Terminal font settings. This will enable font with patched glyph and more icon in your Terminal shell or command prompt app. These variant using filename **"Iosevka Mayukai xxxxxxx Nerd Font Complete"**, and placed inside **"nerd-patched-ttf"** installation folder. Remember that Nerd font variant is without ligation, and only use Glyph and icon patched by Nerd Font Tools.
+If you're using the Nerd Fonts-patched variants, you should select or use `"Iosevka Nerd Font"` in your terminal's font settings. This will provide the patched glyphs and icons from Nerd Fonts. These variants are named `Iosevka Mayukai XXX Nerd Font Complete` and are located inside the `nerd-patched-ttf` folder. Do note that the Nerd Fonts variants are provided with **no ligation**.
 
 ## Demo
 
-Iosevka Mayukai Font when applied to VS Code text editor, using Iosevka Mayukai Semibold and Iosevka Mayukai Medium, or using weight 500 and weight 600. Theme that applied with this demo is VS Code [Mayukai Theme](https://marketplace.visualstudio.com/items?itemName=GulajavaMinistudio.mayukaithemevsc).
+Below are demonstrations of the Iosevka Mayukai font on VS Code, using Iosevka Mayukai Semibold (weight: 500) and Iosevka Mayukai Medium (weight: 600). The theme that is being used in these demonstrations is the [Mayukai Theme](https://marketplace.visualstudio.com/items?itemName=GulajavaMinistudio.mayukaithemevsc), available over in the VS Code Marketplace.
 
-**Iosevka Mayukai Original Font**
+### Iosevka Mayukai Original
 
-![Gambar Demo 3](https://raw.githubusercontent.com/Iosevka-Mayukai/Iosevka-Mayukai/master/code_iosevkamayukai.png)
+![Iosevka Mayukai Original Demo](demos/iosevka-mayukai-demo.png)
 
-**Iosevka Mayukai Serif Font**
+### Iosevka Mayukai Serif
 
-![Gambar Demo 4](https://raw.githubusercontent.com/Iosevka-Mayukai/Iosevka-Mayukai/master/code-iosevka-mayukai-serif.png)
+![Iosevka Mayukai Serif Demo](demos/iosevka-mayukai-serif-demo.png)
 
-**Iosevka Mayukai Codepro Font**
+### Iosevka Mayukai Codepro
 
-![Gambar Demo 4](https://raw.githubusercontent.com/Iosevka-Mayukai/Iosevka-Mayukai/master/code_iosevka_mayukai_codepro.png)
+![Iosevka Mayukai Codepro Demo](demos/iosevka-mayukai-codepro-demo.png)
 
-**Iosevka Mayukai Monolite Font**
+### Iosevka Mayukai Monolite
 
-![Gambar Demo 5](https://raw.githubusercontent.com/Iosevka-Mayukai/Iosevka-Mayukai/master/code_mayukai_monolite.png)
+![Iosevka Mayukai Monolite Demo](demos/iosevka-mayukai-monolite-demo.png)
 
-**Iosevka Mayukai Sonata Font**
+### Iosevka Mayukai Sonata
 
-![Gambar Demo 6](https://raw.githubusercontent.com/Iosevka-Mayukai/Iosevka-Mayukai/master/code-iosevka-mayukai-sonata.png)
+![Gambar Demo 6](demos/iosevka-mayukai-sonata-demo.png)
 
-**Iosevka Mayukai Firastorm Font**
+### Iosevka Mayukai Firastorm
 
-![Gambar Demo 7](https://raw.githubusercontent.com/Iosevka-Mayukai/Iosevka-Mayukai/master/code-iosevka-firastorm.png)
+![Iosevka Mayukai Sonata Demo](demos/iosevka-mayukai-firastorm-demo.png)
 
-## Build Plans Script
+## Build Instructions
 
-Private build plans script for these font available in different repository. You can visit [Iosevka Mayukai Build Plans Repository](https://github.com/Iosevka-Mayukai/HowToBuild) if you want to build or customize it by yourself. And then you can check [Build Iosevka Custom Font Documentation](https://github.com/be5invis/Iosevka#building-from-source) for building it step by step.
+The build plans for the font are available in a [different repository](https://github.com/Iosevka-Mayukai/HowToBuild) if you want to build or customize it by yourself. Afterwards, you can check out the [documentation for building Iosevka](https://github.com/be5invis/Iosevka#building-from-source).
 
-## Thank You
+## Appreciations
 
-Thank you for Belleve Invis, their developers, and contributors that making Iosevka Font happens. Don't forget check and download original Iosevka Font from here [https://github.com/be5invis/Iosevka](https://github.com/be5invis/Iosevka). You can check [Iosevka Demo Page](https://typeof.net/Iosevka/) for details.
+Thank you for Belleve Invis, their developers, and the contributors who made Iosevka possible. Don't forget check out and download the original Iosevka font at its repository [here](https://github.com/be5invis/Iosevka)! You can visit its [demo page](https://typeof.net/Iosevka) for further details.
